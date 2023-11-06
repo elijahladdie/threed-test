@@ -2,7 +2,6 @@
 
 const nextConfig = {
     transpilePackages: ['three'],
-    basePath: '/docs',
 }
 
 module.exports = {nextConfig}
