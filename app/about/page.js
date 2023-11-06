@@ -1,7 +1,5 @@
 "use client";
-import React from 'react';
-import img from 'https://raw.githubusercontent.com/elijahladdie/threed-test/main/public/mine.jpg'
-import Image from 'next/image';
+import React from 'react';import Image from 'next/image';
 const About = () => {
 
   return (
@@ -12,7 +10,7 @@ const About = () => {
 
         </div>
         <div className='flex items-center  justify-center   flex-wrap lg:flex-nowrap '>
-          <Image src={img} className='rounded w-[30%] ' alt="Hello" />
+          <Image src="/mine.jpg" className='rounded w-[30%] ' alt="Hello" />
           <p className='lg:text-lg sm:text-sm text-left px-3'>
             From a young age, I've been &#39 enamored by the allure of three-dimensional art. I've always yearned to create and share that magic.<br />
             That's why I crafted this 2D to 3D text app – my personal vision brought to life.
