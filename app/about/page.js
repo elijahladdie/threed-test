@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import img from '/Users/janvier/Desktop/Learning/threed_copy/public/mine.jpg'
+import img from 'https://raw.githubusercontent.com/elijahladdie/threed-test/main/public/mine.jpg'
 import Image from 'next/image';
 const About = () => {
 
